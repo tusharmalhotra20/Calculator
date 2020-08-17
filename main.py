@@ -12,7 +12,7 @@ val = ""
 operator = ""
 A = 0
 
-#=============================Backend============================
+#=============================Logic for Application============================
 def entered(event):
     butt_C.config(bg="red")
 
@@ -135,7 +135,7 @@ def button_equal():
         val = str(C)
         data.set(val)
 
-#====================================Frontend===================================
+#====================================UI of application===================================
 data = StringVar()
 e = Entry(root,text = "Label", justify = RIGHT, font = ("Verdana", 20),textvariable = data,background = "white",fg = "black")
 e.insert(0,0)
